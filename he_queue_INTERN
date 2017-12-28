@@ -1,0 +1,64 @@
+# for i in range(0, n,1):
+#     temp=(input())
+#     q.append(temp)
+#     if(q[i]==1):
+#         uid.append(input())
+
+
+n = int (input ())
+
+q = []
+p = []
+uid = []
+serve = []
+serve_order = []
+tup0 = []
+
+for i in range (0, n, 1):
+    # print(i)
+    s = input ().split (' ')
+    q.append (int (s[0]))
+    if (s[0] == '1'):
+        uid.append (int (s[1]))
+    if (s[0] == '2'):
+        temp0 = uid.pop ()
+        serve.append (temp0)
+        p.append (temp0)
+p_len = len (p)
+for j in range (0, p_len, 1):
+    serve_order.append (j)
+
+# to append p and serve_order
+list_1 = p
+list_2 = serve_order
+
+# print(list_1, list_2)
+
+for i in range (max ((len (list_1), len (list_2)))):
+    while True:
+        try:
+            card = (list_1[i], list_2[i])
+        except IndexError:
+            if len (list_1) > len (list_2):
+                list_2.append ('')
+                card = (list_1[i], list_2[i])
+            elif len (list_1) < len (list_2):
+                list_1.append ('')
+                card = (list_1[i], list_2[i])
+            continue
+        tup0.append (card)
+        break
+# added to tup0 as 2-tuple list
+# print("tup0=",tup0)
+tup0.sort ()
+# print('tup0 sorted',tup0)
+a, b = [list (c) for c in zip (*tup0)]
+# print('a=',a,'b=',b)
+for i in range (len (b)):
+    print (b[i], end=' ')
+# print(b)
+# print(tup0)
+
+
+
+# print(q,p,uid,serve)
