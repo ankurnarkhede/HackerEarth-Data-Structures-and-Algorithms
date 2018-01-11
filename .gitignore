@@ -1,0 +1,208 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+.static_storage/
+.media/
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+/36_matplot_assignment.py
+/30_matplot_dashedgraph.py
+/52_gui_radiobutton.py
+/61_pandas.py
+/19_numpy_3.py
+/25_numpy.py
+/33_matplot_legend.py
+/26_matplotlib_1.py
+/7 file operations.py
+/17_numpy_1.py
+/50_gui_msgbox.py
+/area circle sq tri.py
+/46_gui_2.py
+/34_matplot_graphlimits.py
+/58_gui_frame_fn.py
+/8 file operations1.py
+/37_plot_figure.py
+/23_numpy_ass.py
+/38_subplot.py
+/4.py
+/22_numpy_6.py
+/57_gui_checkbox_y.py
+/13_attribute_class.py
+/14_inheritance.py
+/42_gui.py
+/45_gui_widgets.py
+/54_gui_widget.py
+/15_inheritance_issintance_issubclass.py
+/29_matplot_line_color.py
+/12_class_employee.py
+/21_numpy_5.py
+/48_gui_label.py
+/11_class_creating.py
+/append fn.py
+/10 error handling try finally.py
+/49_gui_messages.py
+/1.py
+/44_gui_windowattr.py
+/20_numpy_4.py
+/ankur.txt
+/4 numpy as.py
+/53_gui_radiomsg.py
+/9 exception handling.py
+/62_pandas_2.py
+/40_bar.py
+/6 raw input.py
+/35_matplot_multiplegraphs.py
+/43_gui_button.py
+/51_gui_checkbox.py
+/27_matplot_grid.py
+/3 global local variables.py
+/2.py
+/47_gui_3.py
+/58_gui_frame_class.py
+/1 return statement.py
+/24_numpy_sort.py
+/5 module import.py
+/56_gui_frame2.py
+/2 return assignment.py
+/28_matplot_linewidth.py
+/31_matplot_marker.py
+/32_matplot_axeslable.py
+/anon assignment.py
+/41_piechart.py
+/16_method_overriding.py
+/39_subplot_plot.py
+/18_numpy_2.py
+/3.py
+/for2.py
+/forletter.py
+/forloop.py
+/function.py
+/sort_insertion.py
+/while.py
+/sort_merge.py
+/voting.py
+/nw_get_1.py
+/list extend append.py
+/sort_selection.py
+/tuple args.py
+/sort_quick.py
+/primebynestedloop.py
+/primebynestedwhile.py
+/keyword_arg_print n times.py
+/sum by lambda.py
+/sum fn.py
+/inputs1.py
+/list extend.py
+/lol.py
+/overwrite list.py
+/sort.py
+/sort_bubble.py
+/keyword_arguments.py
+/nw_get_0.py
+/mynewfile
+/primebtwn.py
+/sort_shell.py
+/README.md
+/mynewfile.txt
+/pyramis pattern.py
+/palindrome.py
