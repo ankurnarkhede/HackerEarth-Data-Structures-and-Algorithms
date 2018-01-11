@@ -1,17 +1,18 @@
-# hackerearth charsi in love
-
-
-def charsi_in_love(n):
-    num = {}
-    for i in range (0, 10 ** 5, 1):
-        num[(i * (i + 1) // 2)] = 1
-
-    for i in sorted (list (num.keys ())):
-        if (n - i in num):
-            return 'YES'
-    return 'NO'
-
+import math
 
 n = int (input ())
-result = charsi_in_love (n)
-print (result)
+b = 1
+half = n // 2
+while b <= half:
+    X = 2 * n - b * b - b
+    if X < 0:
+        print("NO")
+        break
+
+    a = (-1 + math.sqrt (1 + 4 * X)) / 2
+    if int (a) != a:
+        b += 1
+        continue
+
+    print("YES")
+    break

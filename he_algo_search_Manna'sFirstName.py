@@ -9,12 +9,19 @@
 
 
 
-w = []
-n = int (input ())
+w=[]
+n=int(input())
 
-for i in range (0, n, 1):
-    w = input ()
-    s1 = w.count ("SUVO")
-    s2 = w.count ("SUVOJIT")
-    s1 = s1 - s2
-    print ('SUVO = ', s1, ', SUVOJIT = ', s2, sep='')
+for i in range(0, n, 1):
+    w=input()
+    s1=w.count("SUVO")
+    s2=w.count("SUVOJIT")
+    s1=s1-s2
+    print('SUVO = ',s1,', SUVOJIT = ',s2, sep='')
+
+
+
+
+
+
+
