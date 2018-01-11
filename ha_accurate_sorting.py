@@ -20,9 +20,6 @@ for a0 in range (q):
                 temp = x[i]
                 x[i] = x[i + 1]
                 x[i + 1] = temp
-    # print("operated=",x)
-    # print('sorted =',a_sort)
-    # print('original=',a_original)
 
 
     if (x == a_sort):
@@ -31,15 +28,3 @@ for a0 in range (q):
         print ('No')
 
 
-# Sample Input 0
-#
-# 2
-# 4
-# 1 0 3 2
-# 3
-# 2 1 0
-#
-# Sample Output 0
-#
-# Yes
-# No
