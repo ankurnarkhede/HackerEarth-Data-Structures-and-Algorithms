@@ -2,7 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f894b7e8-ea49-4d7a-95fd-434dee8889dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1 return statement.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/10 error handling try finally.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/11_class_creating.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/12_class_employee.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/13_attribute_class.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14_inheritance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/15_inheritance_issintance_issubclass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/16_method_overriding.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/17_numpy_1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/18_numpy_2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/19_numpy_3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2 return assignment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/20_numpy_4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/21_numpy_5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/22_numpy_6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/23_numpy_ass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/24_numpy_sort.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/25_numpy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/26_matplotlib_1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/27_matplot_grid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/28_matplot_linewidth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/29_matplot_line_color.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/3 global local variables.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/30_matplot_dashedgraph.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/31_matplot_marker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/32_matplot_axeslable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/33_matplot_legend.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/34_matplot_graphlimits.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/35_matplot_multiplegraphs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/36_matplot_assignment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/37_plot_figure.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/38_subplot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/39_subplot_plot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/4 numpy as.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/40_bar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/41_piechart.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/42_gui.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/43_gui_button.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/44_gui_windowattr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/45_gui_widgets.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/46_gui_2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/47_gui_3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/48_gui_label.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/49_gui_messages.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/5 module import.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/50_gui_msgbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/51_gui_checkbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/52_gui_radiobutton.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/53_gui_radiomsg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/54_gui_widget.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/56_gui_frame2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/57_gui_checkbox_y.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/58_gui_frame_class.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/58_gui_frame_fn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/6 raw input.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/61_pandas.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/62_pandas_2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/7 file operations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/8 file operations1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/9 exception handling.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ankur.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/anon assignment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/append fn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/area circle sq tri.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cgpa.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/keyword_arg_print n times.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/keyword_arguments.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/list extend append.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/list extend.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lol.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mynewfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mynewfile.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nw_get_0.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nw_get_1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/overwrite list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/palindrome.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/primebtwn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/primebynestedloop.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/primebynestedwhile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pyramis pattern.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sort.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sort_bubble.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sort_insertion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sort_merge.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sort_quick.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sort_selection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sort_shell.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sum by lambda.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sum fn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tuple args.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/voting.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/while.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="1 return statement.py" />
@@ -202,18 +298,7 @@
     <favorites_list name="python" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-818">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -231,9 +316,6 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/lol.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -343,6 +425,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -612,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514491449392</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added gitignore">
+      <created>1515646773241</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1515646773241</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -701,7 +791,8 @@
     <MESSAGE value="Accurate sorting solution in python 3.4" />
     <MESSAGE value="fdfdf" />
     <MESSAGE value="Initial commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit 1" />
+    <MESSAGE value="added gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -937,7 +1028,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-818">
+        <state relative-caret-position="-1988">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
