@@ -207,3 +207,4 @@ venv.bak/
 /pyramis pattern.py
 /palindrome.py
 /cgpa.py
+/.idea/workspace.xml
