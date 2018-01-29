@@ -1,3 +1,7 @@
+import sys
+
+n = int (sys.stdin.readline ().strip ())
+
 n = int (input ())
 
 a = (list (map (int, input ().strip ().split (' '))))

@@ -1,6 +1,10 @@
+import sys
+
+n = int (sys.stdin.readline ().strip ())
+
 n = int (input ())
 
-rupam = (list (map (int, input ().strip ().split (' '))))
+a = (list (map (int, input ().strip ().split (' '))))
 
 #    print ((str (ser[k])).zfill (5), end=' ')
 
