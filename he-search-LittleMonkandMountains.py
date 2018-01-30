@@ -1,33 +1,33 @@
 import sys
 
-l = []
-r = []
 
-n, q = 3, 3
-l.extend ([11, 31, 51])
-r.extend ([20, 40, 60])
+def index_search(a, target, length):
+    low, high = 0, length
+    if a[length] == target:
+        return length
+    while low < high:
+        mid = (high + low) >> 1
+        if a[mid] <= target:
+            low = mid + 1
+        else:
+            high = mid
+    return low
 
-print ("l=", l)
-print ("r=", r)
 
-# n, q = (map(int, input ().strip ().split (' ')))
-# for i in range(0,n,+1):
-#     a,b = (map (int, input ().strip ().split (' ')))
-#     l.append(a)
-#     r.append(b)
+arr, add = [], [0]
+
+n, q = (map (int, sys.stdin.readline ().strip ().split (' ')))
+for i in range (0, n, +1):
+    l, r = (map (int, sys.stdin.readline ().strip ().split (' ')))
+    arr.append ((l, r))
+    #   creating (l,r) array of inputs
+    add.append (add[i] + (r - l + 1))
+# creating array of offsets
 
 for j in range (0, q, +1):
-    x = int (input ())
-    small = 0
-
-    for i in range (0, len (l), +1):
-        print ("checking for ", x, " for ", i, "th time")
-        print ("l[i]=", l[i], " r[i]=", r[i])
-        print ('small=', small)
-        if ((l[i] - small + x - 1) <= (r[i])):
-            small = l[i] - small + x - 1
-            print ("---------small index=", small)
-            # print(small)
-            break
-        else:
-            small = small + (r[i] - l[i] + 1)
+    # reading the input x
+    x = int (sys.stdin.readline ())
+    # findinf the index in add list  after which, the target is present
+    index = index_search (add, x, n)
+    arr_index = x - add[index - 1] - 1
+    print (arr[index - 1][0] + arr_index)
