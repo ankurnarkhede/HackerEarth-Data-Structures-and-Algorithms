@@ -40,9 +40,10 @@ class Tree:
         if (val == node.v):
             return node
         elif (val < node.v and node.l != None):
-            self._find (val, node.l)
+            return self._find (val, node.l)
         elif (val > node.v and node.r != None):
-            self._find (val, node.r)
+            return self._find (val, node.r)
+
 
     def deleteTree(self):
         # garbage collector will do this for us.
