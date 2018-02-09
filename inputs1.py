@@ -6,6 +6,8 @@ n = int (input ())
 
 a = (list (map (int, input ().strip ().split (' '))))
 
+a = (list (map (int, sys.stdin.readline ().strip ().split (' '))))
+
 #    print ((str (ser[k])).zfill (5), end=' ')
 
 n, k = (map (int, input ().strip ().split (' ')))
