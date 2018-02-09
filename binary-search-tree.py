@@ -4,7 +4,6 @@ class Node:
         self.r = None
         self.v = val
 
-
 class Tree:
     def __init__(self):
         self.root = None
@@ -16,6 +15,7 @@ class Tree:
         if (self.root == None):
             self.root = Node (val)
         else:
+            print ('inside add, root=', self.root.v)
             self._add (val, self.root)
 
     def _add(self, val, node):
@@ -32,8 +32,10 @@ class Tree:
 
     def find(self, val):
         if (self.root != None):
+            print ('inside find, root=', self.root.v)
             return self._find (val, self.root)
         else:
+            print ('inside not found, root=', self.root.v)
             return None
 
     def _find(self, val, node):
@@ -44,36 +46,55 @@ class Tree:
         elif (val > node.v and node.r != None):
             return self._find (val, node.r)
 
-
     def deleteTree(self):
         # garbage collector will do this for us.
         self.root = None
 
-    def printTree(self):
+    def printTree(self, order='in_order'):
         if (self.root != None):
-            self._printTree (self.root)
+            if (order == 'in_order'):
+                self.in_order (self.root)
+            elif (order == 'pre_order'):
+                self.pre_order (self.root)
+            elif (order == 'post_order'):
+                self.post_order (self.root)
 
-    def _printTree(self, node):
+    def in_order(self, node):
         if (node != None):
-            self._printTree (node.l)
+            self.in_order (node.l)
             print (str (node.v) + ' ')
-            self._printTree (node.r)
+            self.in_order (node.r)
+
+    def pre_order(self, node):
+        if (node != None):
+            print (str (node.v) + ' ')
+            self.pre_order (node.l)
+            self.pre_order (node.r)
+
+    def post_order(self, node):
+        if (node != None):
+            self.post_order (node.l)
+            self.post_order (node.r)
+            print (str (node.v) + ' ')
 
 
 # 3
 # 0     4
 #   2      8
 tree = Tree ()
+
 tree.add (3)
 tree.add (4)
 tree.add (0)
 tree.add (8)
 tree.add (2)
 tree.printTree ()
+tree.printTree ('post_order')
+print (tree.getRoot ().v)
 print ('finding 2:', end='')
 print ((tree.find (2)))
 print ('finding 10:', end='')
 print (tree.find (10))
 tree.deleteTree ()
-tree.printTree ()
+tree.printTree ('post_order')
 print ('bbye')
