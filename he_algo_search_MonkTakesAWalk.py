@@ -13,7 +13,6 @@ for i in range(0,n,1):
     w=input()
 
     len_w=len(w)
-    # print(len_w)
     for j in range(0,len_w,1):
         # print('checking ',w[j])
         if (w[j] in v):
