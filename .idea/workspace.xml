@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f894b7e8-ea49-4d7a-95fd-434dee8889dc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Codechef-BIGSALE.py" afterPath="$PROJECT_DIR$/Codechef-BIGSALE.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/he_algo_search_MonkTakesAWalk.py" afterPath="$PROJECT_DIR$/he_algo_search_MonkTakesAWalk.py" />
     </list>
     <ignored path="1 return statement.py" />
     <ignored path="1.py" />
@@ -216,11 +216,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="he_algo_search_MonkTakesAWalk.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/he_algo_search_MonkTakesAWalk.py">
+      <file leaf-file-name="1.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="207" column="14" lean-forward="true" selection-start-line="207" selection-start-column="14" selection-end-line="207" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -270,7 +280,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="dbtable:/a1d5995e/12a0b82a-971f-4d1b-b12d-05c0a129f796/onlinylh_sggsadmission.admin" />
         <option value="dbtable:/a1d5995e/12a0b82a-971f-4d1b-b12d-05c0a129f796/onlinylh_sggsadmission.details-2015-16" />
         <option value="dbtable:/a1d5995e/12a0b82a-971f-4d1b-b12d-05c0a129f796/onlinylh_sggsadmission.data" />
         <option value="dbtable:/a1d5995e/12a0b82a-971f-4d1b-b12d-05c0a129f796/onlinylh_sggsresearch.temp_candidates" />
@@ -299,7 +308,6 @@
         <option value="$PROJECT_DIR$/he_algo_FizzBuzz.py" />
         <option value="$PROJECT_DIR$/he_ArrayConstruction.py" />
         <option value="$PROJECT_DIR$/inputs.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/he_sorting_MonkBeingMonitor1.py" />
         <option value="$PROJECT_DIR$/he_sorting_MonkBeingMonitor.py" />
         <option value="$PROJECT_DIR$/he_searching_ LittleMonkandMountains.py" />
@@ -321,6 +329,8 @@
         <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/Codechef-BIGSALE.py" />
         <option value="$PROJECT_DIR$/he_algo_search_MonkTakesAWalk.py" />
+        <option value="$PROJECT_DIR$/1.csv" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -381,7 +391,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/1.py&#10;true&#10;/home/smartankur4u/PycharmProjects/python/inputs1.py" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/1.py&#10;/home/smartankur4u/PycharmProjects/python/8 file operations1.py&#10;true&#10;/home/smartankur4u/PycharmProjects/python/inputs1.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -896,17 +906,24 @@
       <option name="project" value="LOCAL" />
       <updated>1520618165197</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="more programs solved...">
+      <created>1520712609572</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1520712609572</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="-14" width="1330" height="783" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18429238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18429238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33971292" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5062208" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17884915" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32695374" sideWeight="0.49377915" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32695374" sideWeight="0.49377915" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28229666" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28389156" sideWeight="0.49415433" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980545" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1005,21 +1022,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codevita_1_10digit_PC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/he_SupremeSubsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a1d5995e/12a0b82a-971f-4d1b-b12d-05c0a129f796/onlinylh_scholarship.sadbhavana_2017_18" />
     <entry file="dbDummy://dbtable:/a1d5995e/12a0b82a-971f-4d1b-b12d-05c0a129f796/onlinylh_sggsadmission.student-2016-17" />
     <entry file="dbDummy://dbtable:/a1d5995e/12a0b82a-971f-4d1b-b12d-05c0a129f796/onlinylh_sggsadmission.student-2017-18" />
     <entry file="dbDummy://dbtable:/a1d5995e/12a0b82a-971f-4d1b-b12d-05c0a129f796/onlinylh_app.users" />
@@ -1128,13 +1130,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/he_searching_ LittleMonkandMountains.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="210" column="0" lean-forward="true" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1268,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,6 +1270,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/62_pandas_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8 file operations1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="207" column="14" lean-forward="true" selection-start-line="207" selection-start-column="14" selection-end-line="207" selection-end-column="14" />
           <folding />
         </state>
       </provider>
