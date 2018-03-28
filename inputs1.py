@@ -3,6 +3,8 @@ import sys
 n = int (sys.stdin.readline ().strip ())
 
 n = int (input ())
+n = int (sys.stdin.readline ())
+
 
 a = (list (map (int, input ().strip ().split (' '))))
 
