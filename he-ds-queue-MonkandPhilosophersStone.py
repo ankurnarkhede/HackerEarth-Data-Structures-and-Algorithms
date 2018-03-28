@@ -13,10 +13,10 @@ def check_worth(queue, c):
     else:
         return c
 
+
 n = int (sys.stdin.readline ().strip ())
 worth = deque (list (map (int, sys.stdin.readline ().strip ().split (' '))))
 q, x = (map (int, sys.stdin.readline ().strip ().split (' ')))
-
 
 for i in range (0, q, +1):
     query = (sys.stdin.readline ().strip ())
