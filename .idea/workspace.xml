@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f894b7e8-ea49-4d7a-95fd-434dee8889dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OutputFile1.txt" afterPath="$PROJECT_DIR$/OutputFile1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OutputFile2.txt" afterPath="$PROJECT_DIR$/OutputFile2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OutputFile3.txt" afterPath="$PROJECT_DIR$/OutputFile3.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ziguar-assign-1-round-robin.py" afterPath="$PROJECT_DIR$/ziguar-assign-1-round-robin.py" />
     </list>
     <ignored path="1 return statement.py" />
@@ -183,7 +186,7 @@
     <SUITE FILE_PATH="coverage/python$he_Manna_sFirstName.coverage" NAME="he_Manna'sFirstName Coverage Results" MODIFIED="1492902335275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$list_extend_append.coverage" NAME="list extend append Coverage Results" MODIFIED="1490475927583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$clock_angle.coverage" NAME="clock-angle Coverage Results" MODIFIED="1524049057791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$ziguar_assign_1_round_robin.coverage" NAME="ziguar-assign-1-round-robin Coverage Results" MODIFIED="1524848781586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$ziguar_assign_1_round_robin.coverage" NAME="ziguar-assign-1-round-robin Coverage Results" MODIFIED="1524849802364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$ha_beautiful_word_temp0.coverage" NAME="ha_beautiful_word_temp0 Coverage Results" MODIFIED="1491820145296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$he_algo_search_RepeatedKTimes.coverage" NAME="he_algo_search_RepeatedKTimes Coverage Results" MODIFIED="1498905056453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$he_algo_MicroandQueue.coverage" NAME="he-algo-MicroandQueue Coverage Results" MODIFIED="1518155093807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -222,8 +225,8 @@
       <file leaf-file-name="ziguar-assign-1-round-robin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ziguar-assign-1-round-robin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -279,7 +282,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/icpc_ChefAndSubarrays.py" />
         <option value="$PROJECT_DIR$/3.py" />
         <option value="$PROJECT_DIR$/icpc_OrderingTeams.py" />
         <option value="$PROJECT_DIR$/icpc_StdDeviation.py" />
@@ -330,6 +332,7 @@
         <option value="$PROJECT_DIR$/clock-angle.py" />
         <option value="$PROJECT_DIR$/inputfile1.txt" />
         <option value="$PROJECT_DIR$/ziguar-assign-1-round-robin.py" />
+        <option value="$PROJECT_DIR$/OutputFile2.txt" />
       </list>
     </option>
   </component>
@@ -975,7 +978,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524501170233</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="more programs solved...">
+      <created>1524848854594</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1524848854594</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1363,14 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OutputFile2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OutputFile3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1379,18 +1381,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OutputFile2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OutputFile1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ziguar-assign-1-round-robin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="60" />
           <folding />
         </state>
       </provider>
