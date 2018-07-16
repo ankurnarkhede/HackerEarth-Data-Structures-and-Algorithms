@@ -1,4 +1,3 @@
-
 import sys
 
 
@@ -9,9 +8,6 @@ class Node:
         self.data = data
         self.next = next
         self.prev = prev
-
-    def __str__(self):
-        return "Node[Data = %s]" % (self.data,)
 
 
 class DoubleLinkedList:
@@ -24,81 +20,78 @@ class DoubleLinkedList:
             self.head = Node (data)
             self.tail = self.head
         else:
-            current = self.head
-            while (current.next != None):
-                current = current.next
-            current.next = Node (data, None, current)
-            self.tail = current.next
-
+            new_node = Node (data, None, self.tail)
+            self.tail.next = new_node
+            self.tail = new_node
 
     def fwd_print(self):
-        to_print=[]
+        to_print = []
         current = self.head
         if current == None:
-            print ("No elements")
+            # print ("No elements")
             return False
         while (current != None):
-            to_print.append(current.data)
+            to_print.append (current.data)
             current = current.next
-        print(*to_print)
+        print (*to_print)
         return True
 
-
-
-    def delete_friend(self):
+    def delete_friend(self, count):
         DeleteFriend = False
-
+        count = count
         currentnode = self.head
 
-        while currentnode.next != None:
-            if (currentnode.data < currentnode.next.data):
-                # print("working on {} and {}".format(currentnode.data,currentnode.next.data))
-                try:
-                    # print("Deleting1 ={}".format(currentnode.data))
-                    # print("prev and next= {},{}".format(currentnode.prev.data,currentnode.next.data))
-                    currentnode.prev.next=currentnode.next
-                    currentnode.next.prev = currentnode.prev
+        while (count > 0):
+            # print ("count1=", count)
+            while (currentnode.next != None and count > 0):
+                # print ("count2=", count)
+                # print ("looking on {} and {}".format (currentnode.data, currentnode.next.data))
+                if (currentnode.data < currentnode.next.data):
+                    try:
+                        # print ("Deleting1 ={}".format (currentnode.data))
+                        # print ("prev and next= {},{}".format (currentnode.prev.data, currentnode.next.data))
 
-                except(AttributeError):
-                    # If given item is the first element of the linked list
-                    # print("Deleting2 ={}".format(currentnode.data))
-                    self.head = currentnode.next
-                    self.head.prev = None
+                        # node at the middle of list
+                        currentnode.prev.next = currentnode.next
+                        currentnode.next.prev = currentnode.prev
+                        currentnode = currentnode.prev
 
-                DeleteFriend=True
-                break
-            currentnode = currentnode.next
+                    except(AttributeError):
+                        # If given item is the first element of the linked list
+                        # print ("Deleting2 ={}".format (currentnode.data))
+                        self.head = currentnode.next
+                        self.head.prev = None
+                        currentnode = self.head
 
+                    DeleteFriend = True
+                    count -= 1
+                else:
+                    currentnode = currentnode.next
 
-        if(DeleteFriend == False):
-            # for deleting the last node
-            self.tail = self.tail.prev
-            self.tail.next = None
+            if (DeleteFriend == False):
+                # for deleting the last node
+                self.tail = self.tail.prev
+                self.tail.next = None
+                currentnode = self.tail
+                count -= 1
         return True
-
-
 
 
 def main():
-
     t = int (sys.stdin.readline ().strip ())
 
-    for i in range(0,t,+1):
+    for i in range (0, t, +1):
         n, k = (map (int, sys.stdin.readline ().strip ().split (' ')))
         popularity = (list (map (int, sys.stdin.readline ().strip ().split (' '))))
 
         dll = DoubleLinkedList ()
-        for j in range(0,len(popularity),+1):
-            dll.insert(popularity[j])
+        for j in range (0, len (popularity), +1):
+            dll.insert (popularity[j])
 
-        # dll.fwd_print()
-        for j in range(0, k, +1):
-            dll.delete_friend()
+        dll.delete_friend (k)
 
         dll.fwd_print ()
 
 
-
 if __name__ == "__main__":
     main ()
-
